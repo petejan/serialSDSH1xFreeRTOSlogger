@@ -1,0 +1,1 @@
+xatoi.o: ../xatoi.s

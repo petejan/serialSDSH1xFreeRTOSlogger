@@ -1,0 +1,744 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                              ./main.o (xTaskCreate)
+/Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o) (pvPortMalloc)
+/Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o) (pxPortInitialiseStack)
+/Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o) (vListInitialise)
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o) (__do_clear_bss)
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text._Z29vApplicationStackOverflowHookPvPc
+                0x00000000       0x2e ./main.o
+ .text          0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss           0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskDelete
+                0x00000000       0xaa /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskEndScheduler
+                0x00000000        0xa /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskGetTickCountFromISR
+                0x00000000        0xa /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.uxTaskGetNumberOfTasks
+                0x00000000        0x6 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.pcTaskGetName
+                0x00000000       0x10 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskDelay
+                0x00000000       0x36 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskPlaceOnEventList
+                0x00000000       0x22 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x2e /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskRemoveFromEventList
+                0x00000000       0x80 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0x68 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskSetTimeOutState
+                0x00000000       0x16 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskCheckForTimeOut
+                0x00000000       0x58 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskMissedYield
+                0x00000000        0x8 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x2e /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.ulTaskNotifyTake
+                0x00000000       0xa2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskNotifyWait
+                0x00000000      0x132 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskGenericNotify
+                0x00000000       0xd2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskGenericNotifyFromISR
+                0x00000000       0xf4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskNotifyGiveFromISR
+                0x00000000       0xa4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskNotifyStateClear
+                0x00000000       0x28 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text          0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .bss           0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .text.xPortGetFreeHeapSize
+                0x00000000        0xa /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .text.vPortInitialiseBlocks
+                0x00000000        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .text          0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+ .bss           0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+ .text.vPortEndScheduler
+                0x00000000        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+ .text          0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+ .bss           0x00000000        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD ./main.o
+LOAD /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libm.a
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libc.a
+LOAD /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xc94
+ *(.vectors)
+ .vectors       0x00000000       0x68 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x4 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x0000009e        0x2 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x0000009e                __vector_20
+                0x0000009e                __vector_1
+                0x0000009e                __vector_24
+                0x0000009e                __vector_12
+                0x0000009e                __bad_interrupt
+                0x0000009e                __vector_6
+                0x0000009e                __vector_3
+                0x0000009e                __vector_23
+                0x0000009e                __vector_25
+                0x0000009e                __vector_13
+                0x0000009e                __vector_17
+                0x0000009e                __vector_19
+                0x0000009e                __vector_7
+                0x0000009e                __vector_5
+                0x0000009e                __vector_4
+                0x0000009e                __vector_9
+                0x0000009e                __vector_2
+                0x0000009e                __vector_21
+                0x0000009e                __vector_15
+                0x0000009e                __vector_8
+                0x0000009e                __vector_14
+                0x0000009e                __vector_10
+                0x0000009e                __vector_16
+                0x0000009e                __vector_18
+                0x0000009e                __vector_22
+                0x000000a0                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZL17TaskBlinkGreenLEDPv
+                0x000000a0       0x2c ./main.o
+ .text.startup.main
+                0x000000cc       0x1c ./main.o
+                0x000000cc                main
+ .text.prvResetNextTaskUnblockTime
+                0x000000e8       0x36 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.prvAddCurrentTaskToDelayedList.isra.2
+                0x0000011e       0x80 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.xTaskCreate
+                0x0000019e      0x1d4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x0000019e                xTaskCreate
+ .text.vTaskStartScheduler
+                0x00000372       0x50 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x00000372                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x000003c2        0xc /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x000003c2                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x000003ce       0x14 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x000003ce                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x000003e2      0x150 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x000003e2                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x00000532       0xd2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x00000532                xTaskResumeAll
+ .text.vTaskDelayUntil
+                0x00000604       0x66 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x00000604                vTaskDelayUntil
+ .text.prvIdleTask
+                0x0000066a       0x5c /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .text.vTaskSwitchContext
+                0x000006c6       0x86 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x000006c6                vTaskSwitchContext
+ .text.pvPortMalloc
+                0x0000074c      0x120 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                0x0000074c                pvPortMalloc
+ .text.vPortFree
+                0x0000086c       0x54 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                0x0000086c                vPortFree
+ .text.pxPortInitialiseStack
+                0x000008c0       0xd8 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                0x000008c0                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x00000998       0x74 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                0x00000998                xPortStartScheduler
+ .text.vPortYield
+                0x00000a0c       0xb0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                0x00000a0c                vPortYield
+ .text.vPortYieldFromTick
+                0x00000abc       0xb4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                0x00000abc                vPortYieldFromTick
+ .text.__vector_11
+                0x00000b70        0x4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                0x00000b70                __vector_11
+ .text.vListInitialise
+                0x00000b74       0x1c /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                0x00000b74                vListInitialise
+ .text.vListInitialiseItem
+                0x00000b90        0x8 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                0x00000b90                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00000b98       0x42 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                0x00000b98                vListInsertEnd
+ .text.vListInsert
+                0x00000bda       0x70 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                0x00000bda                vListInsert
+ .text.uxListRemove
+                0x00000c4a       0x46 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                0x00000c4a                uxListRemove
+                0x00000c90                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000c90        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x00000c90                exit
+                0x00000c90                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000c90        0x4 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000c94                _etext = .
+
+.data           0x00800100       0x10 load address 0x00000c94
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x00800100        0x0 ./main.o
+ .data          0x00800100        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .data          0x00800100        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .data          0x00800100        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+ .data          0x00800100        0x0 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+ .data          0x00800100        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x00800100        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ *(.data*)
+ .data.xFreeBytesRemaining
+                0x00800100        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800102        0x9 ./main.o
+ .rodata.str1.1
+                0x0080010b        0x5 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ *(.gnu.linkonce.d*)
+                0x00800110                . = ALIGN (0x2)
+                0x00800110                _edata = .
+                0x00800110                PROVIDE (__data_end, .)
+
+.bss            0x00800110      0x642
+                0x00800110                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.uxSchedulerSuspended
+                0x00800110        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xIdleTaskHandle
+                0x00800111        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xNextTaskUnblockTime
+                0x00800113        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.uxTaskNumber
+                0x00800115        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x00800116        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xYieldPending
+                0x00800117        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.uxPendedTicks
+                0x00800118        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x00800119        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.uxTopReadyPriority
+                0x0080011a        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xTickCount
+                0x0080011b        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.uxCurrentNumberOfTasks
+                0x0080011d        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x0080011e        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xTasksWaitingTermination
+                0x0080011f        0x9 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xPendingReadyList
+                0x00800128        0x9 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x00800131        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.pxDelayedTaskList
+                0x00800133        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x00800135        0x9 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x0080013e        0x9 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x00800147       0x24 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .bss.pxCurrentTCB
+                0x0080016b        0x2 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                0x0080016b                pxCurrentTCB
+ .bss.xHeapHasBeenInitialised.1960
+                0x0080016d        0x1 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .bss.xEnd      0x0080016e        0x4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .bss.xStart    0x00800172        0x4 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .bss.ucHeap    0x00800176      0x5dc /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ *(COMMON)
+                0x00800752                PROVIDE (__bss_end, .)
+                0x00000c94                __data_load_start = LOADADDR (.data)
+                0x00000ca4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800752        0x0
+                0x00800752                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800752                PROVIDE (__noinit_end, .)
+                0x00800752                _end = .
+                0x00800752                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 ./main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ .comment       0x00000011       0x12 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+ .comment       0x00000011       0x12 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+ .comment       0x00000011       0x12 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x00000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x208
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(testFreeRTOS.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+_Z29vApplicationStackOverflowHookPvPc             ./main.o
+__FUSE_REGION_LENGTH__                            /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__bad_interrupt                                   /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+__do_copy_data                                    /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  ./main.o
+__heap_end                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__stack                                           /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_1                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                                                  /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+exit                                              /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                                                  /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+main                                              ./main.o
+                                                  /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+pcTaskGetName                                     /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+pvPortMalloc                                      /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+pxCurrentTCB                                      /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+pxPortInitialiseStack                             /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+ulTaskNotifyTake                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+uxListRemove                                      /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+uxTaskGetNumberOfTasks                            /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+uxTaskResetEventItemValue                         /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vListInitialise                                   /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vListInitialiseItem                               /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vListInsert                                       /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vListInsertEnd                                    /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(list.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vPortEndScheduler                                 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vPortFree                                         /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vPortInitialiseBlocks                             /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+vPortYield                                        /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vPortYieldFromTick                                /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+vTaskDelay                                        /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskDelayUntil                                   /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  ./main.o
+vTaskDelete                                       /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskEndScheduler                                 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskMissedYield                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskNotifyGiveFromISR                            /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskPlaceOnEventList                             /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskPlaceOnUnorderedEventList                    /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskSetTimeOutState                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+vTaskStartScheduler                               /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  ./main.o
+vTaskSuspendAll                                   /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+vTaskSwitchContext                                /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+xPortGetFreeHeapSize                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
+xPortStartScheduler                               /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskCheckForTimeOut                              /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskCreate                                       /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  ./main.o
+xTaskGenericNotify                                /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskGenericNotifyFromISR                         /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskGetTickCount                                 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  ./main.o
+xTaskGetTickCountFromISR                          /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskIncrementTick                                /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(port.o)
+xTaskNotifyStateClear                             /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskNotifyWait                                   /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskRemoveFromEventList                          /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskRemoveFromUnorderedEventList                 /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+xTaskResumeAll                                    /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(tasks.o)
+                                                  /Users/pete/arduino/freeRTOS/Release/libfreeRTOS.a(heap_2.o)
